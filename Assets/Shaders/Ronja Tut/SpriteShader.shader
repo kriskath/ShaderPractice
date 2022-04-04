@@ -1,4 +1,4 @@
-Shader "monkybusines/ronja/OpaqueSpriteShader"{
+Shader "ronja/OpaqueSpriteShader"{
 	
 	//This shader has no lighting affects
 

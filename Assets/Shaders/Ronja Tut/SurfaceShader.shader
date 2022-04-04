@@ -1,4 +1,4 @@
-Shader "monkybusines/ronja/SurfaceShader"
+Shader "ronja/SurfaceShader"
 {
     //This shader will handle lighting in the scene
 

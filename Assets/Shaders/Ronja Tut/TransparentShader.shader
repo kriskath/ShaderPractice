@@ -1,4 +1,4 @@
-Shader "monkybusines/ronja/TransparentSpriteShader"{
+Shader "ronja/TransparentSpriteShader"{
 
 	//This shader has transparency effects
 
@@ -18,7 +18,7 @@ Shader "monkybusines/ronja/TransparentSpriteShader"{
 		"Queue" = "Transparent"
 	}
 
-	//Blanding mode defines how the existing colors and new colors blend with each other
+	//Blending mode defines how the existing colors and new colors blend with each other
 		//defined by two keywords: 1) defines the value the new color is multiplied with 2) defines the value the old color is multiplied with
 		//afterwards the colors are added together
 	//When rendering opaque materials, blend mode is "1 0" because we take only new value and nothing of old.
