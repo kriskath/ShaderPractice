@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Freya_Shader_green
-  m_Shader: {fileID: 4800000, guid: 58f30b59788682340bf1b1c7ead33c2b, type: 3}
+  m_Name: Freya_VertexOffset
+  m_Shader: {fileID: 4800000, guid: b64fdbeb39b78d9469336ed6a6ce0a1a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,7 +20,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _Value: 1
+    - _ColorEnd: 1
+    - _ColorStart: 0
+    - _WaveAmp: 0.2
     m_Colors:
-    - _Color: {r: 0.014198661, g: 1, b: 0, a: 1}
+    - _ColorA: {r: 0.4009434, g: 1, b: 0.5155767, a: 1}
+    - _ColorB: {r: 0.20496617, g: 0.3545213, b: 0.9245283, a: 1}
   m_BuildTextureStacks: []
